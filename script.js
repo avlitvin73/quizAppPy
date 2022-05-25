@@ -12,12 +12,14 @@ const qa = [
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 print((4 + 8) / 2)`,
 		correct: "6.0",
 		incorrect: ["8", "6", "0", "error"]
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 print(7 % (5 // 2))`,
 		correct: "1",
 		incorrect: ["7", "0", "1.0", "error"]
@@ -30,12 +32,14 @@ print(7 % (5 // 2))`,
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 print(int('3' + '4'))`,
 		correct: "34",
 		incorrect: ["7", "'7'", "'34'", "34.0"]
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 spam = 'eggs'
 print(spam * 3)`,
 		correct: "eggseggseggs",
@@ -48,6 +52,7 @@ print(spam * 3)`,
 	},
 	{
 		question: `Каким будет результат этой программы?
+        
 spam = '7'
 spam = span + '0'
 eggs = int(spam) + 3
@@ -63,24 +68,28 @@ print(float(eggs))`,
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 print(7 != 8)`,
 		correct: "True",
 		incorrect: ["False"]
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 print(7 > 7.0)`,
 		correct: "False",
 		incorrect: ["True"]
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 print(8.7 <= 8.70)`,
 		correct: "True",
 		incorrect: ["False", 'error']
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 spam = 7
 if spam > 5:
     print('five')
@@ -91,6 +100,7 @@ if spam > 8:
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 num = 7
 if num > 3:
     print('3')
@@ -103,6 +113,7 @@ if num > 3:
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 if 1 + 1 == 2:
     if 2 * 2 == 8:
         print('if')
@@ -113,6 +124,7 @@ if 1 + 1 == 2:
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 if (1 == 1) and (2 + 2 > 3):
     print('true')
 else:    
@@ -122,6 +134,7 @@ else:
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 if not True:
     print('1')
 elif not (1 + 1 == 3):
@@ -133,6 +146,7 @@ else:
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 if 1 + 1 * 3 == 6:
     print('yes')
 else:    
@@ -142,6 +156,7 @@ else:
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 x = 4
 y = 2
 if not 1 + 1 == y ot x == 4 and 7 == 8:
@@ -173,6 +188,7 @@ while True:
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 nums = [5,4,3,2,1]
 print(nums[1])`,
 		correct: "4",
@@ -180,6 +196,7 @@ print(nums[1])`,
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 nums = [1,2,3,4,5]
 nums[3] = nums[1]
 print(nums[3])`,
@@ -188,6 +205,7 @@ print(nums[3])`,
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 nums = [10, 9, 8, 7, 6, 5]
 nums[0] = nums[1] - 5
 if 4 in nums:
@@ -199,6 +217,7 @@ else:
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 words = ['hello']
 words.append('world')
 print(words[1])`,
@@ -207,6 +226,7 @@ print(words[1])`,
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 letters = ['a', 'b', 'c']
 letters.append('d')
 print(len(letters))`,
@@ -215,6 +235,7 @@ print(len(letters))`,
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 nums = [9, 8, 7, 6, 5]
 nums.append(4)
 nums.insert(2, 11)
@@ -224,6 +245,7 @@ print(len(nums))`,
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 nums = list(range(5))
 print(nums[4])`,
 		correct: "4",
@@ -231,6 +253,7 @@ print(nums[4])`,
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 nums = list(range(5, 8))
 print(len(nums))`,
 		correct: "3",
@@ -238,6 +261,7 @@ print(len(nums))`,
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 nums = list(range(3, 15, 3))
 print(nums[2])`,
 		correct: "9",
@@ -245,6 +269,7 @@ print(nums[2])`,
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 list = [1, 1, 2, 3, 5, 8, 13]
 print(list[list[4]])`,
 		correct: "8",
@@ -252,6 +277,7 @@ print(list[list[4]])`,
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 letters = ['x', 'y', 'z']
 letters.insert(1, 'w')
 print(letters[2])`,
@@ -267,6 +293,7 @@ range(0, 100, 5)`,
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 def print_double(x):
     print(2 * x)
     
@@ -276,6 +303,7 @@ print_double(3)`,
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 def print_numbers():
     print(2)
     return
@@ -288,6 +316,7 @@ print_numbers()`,
 	},
     {
 		question: `Каким будет результат этой программы?
+        
 def shout(word):
     return word + '!'
 
