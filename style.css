@@ -1,0 +1,163 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background-color: #131319;
+  font-family: monospace;
+  margin: 0;
+}
+
+.form-c {
+  margin-top: 100px;
+  width: 400px;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: #1c1c23;
+  position: relative;
+}
+
+.progressBar {
+  height: 40px;
+  width: calc(100% - 60px);
+  padding: 10px;
+  background-color: #131319;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 15px;
+  right: 50%;
+  -webkit-transform: translate(50%, 0%);
+          transform: translate(50%, 0%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.bar {
+  height: 11px;
+  width: 100%;
+  background: #e6fff4;
+  border-radius: 100px;
+}
+
+.bar-w {
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  height: 100%;
+  width: 0%;
+  background-color: #00ff9c;
+  border-radius: 100px;
+}
+
+.next {
+  white-space: nowrap;
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+  width: 0;
+  margin-left: auto;
+  color: #cdcdcd;
+  cursor: pointer;
+}
+
+.next:hover {
+  color: #fff;
+}
+
+.qa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.q h3 {
+  margin: 1.2em 0;
+  font-size: 1.4em;
+  color: #cdcdcd;
+}
+
+.a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.a-item {
+  padding: 18px 10px;
+  background-color: #131417;
+  border-radius: 5px;
+  color: #bdbdbd;
+  margin: 0.35em 0;
+}
+
+.a-item:hover {
+  background-color: #ffffff47;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  color: #fff;
+}
+
+.progressActive {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  width: auto;
+  -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+}
+
+.start-game {
+  background-color: #dddddd !important;
+  color: #1c1c1c !important;
+  font-size: 1em;
+}
+
+.result {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #333;
+  color: #a0a0a0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.result-q {
+  width: 200px;
+}
+
+.a-item:last-child,
+.result:last-child {
+  margin-bottom: 90px;
+}
+/*# sourceMappingURL=style.css.map */
