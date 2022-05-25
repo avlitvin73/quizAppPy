@@ -357,7 +357,7 @@ function newQuestion() {
 	});
 
 	const capQuestion = el.question.charAt(0).toUpperCase() + el.question.slice(1);
-	question.textContent = `${capQuestion}?`;
+	question.textContent = `${capQuestion}`;
 	answerContainer.innerHTML = "";
 
 	el.options.forEach((option) => {
