@@ -1,3 +1,5 @@
+element.onselectstart = function(){alert ("Ей! Ты что собрался делать?!"); return false;}
+
 const qa = [
     {
 		question: `Python - это:`,
