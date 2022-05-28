@@ -1,3 +1,6 @@
+element = document.querySelector('.q-item')
+element.onselectstart = function(){alert ("Но-но-но! Ты что собрался делать?"); return false;}
+
 const qa = [
     {
 		question: `Python - это:`,
