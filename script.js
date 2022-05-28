@@ -1,4 +1,10 @@
-element.onselectstart = function(){alert ("Ей! Ты что собрался делать?!"); return false;}
+function disableSelection(elem) {
+ if (typeof elem.onselectstart != "undefined") {
+    return false;
+ }
+ elem.style.cursor = "default";
+}
+disableSelection(document.body);
 
 const qa = [
     {
